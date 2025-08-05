@@ -1,6 +1,22 @@
+> [!WARNING]
+> PT-Plugin-Plus 项目已经进入停止维护期（具体说明见： https://github.com/pt-plugins/PT-Plugin-Plus/issues/2235 ）
+> 
+> 我们推荐您使用全新的替代方案：  **[PT-depiler](https://github.com/pt-plugins/PT-depiler)** 。
+> PT-depiler 是 PT-Plugin-Plus 的继任者，保留了绝大多数核心功能并进行了全面优化，包括更好的兼容性、更稳定的性能和更丰富的功能支持。建议所有用户迁移至新项目以获得持续的更新和支持。
+
+> [!TIP]
+> 如果你浏览器中使用的PTPP已经被禁用，你可以尝试以下方法 **重新恢复使用** 或 **导出数据以迁移至PT-depiler**：
+> 
+> ① [使用浏览器 flags 临时启用](https://github.com/pt-plugins/PT-Plugin-Plus/wiki#%E6%88%91%E5%B7%B2%E7%BB%8F%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%BA%86%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E) （需要 chrome < 139）
+> 
+> ② [使用临时插件 PTPP Exporter](https://github.com/pt-plugins/PT-Plugin-Plus/discussions/2241) （仅适用于通过 crx 或者 zip 方法安装）
+> 
+> ③ [使用低版本 chrome 抢救数据](https://github.com/pt-plugins/PT-Plugin-Plus/discussions/2242)  （推荐！也可用于其他基于 chromium 但未移除 MV2 支持的浏览器）
+
+
 <p align="center">
 <img src="https://github.com/pt-plugins/PT-Plugin-Plus/raw/master/public/assets/icon-128.png"><br/>
-<a href="https://github.com/pt-plugins/PT-Plugin-Plus/releases/latest" title="GitHub Releases"><img src="https://img.shields.io/github/release/pt-plugins/PT-Plugin-Plus.svg?label=Latest%20Release"></a>
+<a href="https://github.com/pt-plugins/PT-Plugin-Plus/releases?include_prereleases/latest" title="GitHub Pre-releases"><img src="https://img.shields.io/github/release/pt-plugins/PT-Plugin-Plus.svg?include_prereleases&label=pre-release"></a>
 <a href="https://github.com/pt-plugins/PT-Plugin-Plus/releases" title="GitHub All Releases"><img alt="Releases" src="https://img.shields.io/github/downloads/pt-plugins/PT-Plugin-Plus/total.svg?label=Downloads"></a>
 <img src="https://img.shields.io/badge/Used-TypeScript%20Vue-blue.svg">
 <a href="https://github.com/pt-plugins/PT-Plugin-Plus/LICENSE" title="GitHub license"><img src="https://img.shields.io/github/license/pt-plugins/PT-Plugin-Plus.svg?label=License" alt="GitHub license"/></a>
@@ -19,9 +35,11 @@ PT 助手 Plus，是一款浏览器插件（Web Extensions），一个可以提�
 
 > ~~注意：`1.0.0` 以下的配置不能直接用于该版本，请勿将 `1.0.0` 以下的版本配置进行导入操作。~~
 
-最新版本以及功能请登录后从[Action](https://github.com/pt-plugins/PT-Plugin-Plus/actions)里获取。如不会安装请参看Wiki
+最新版本请登录后从[Pre-release](https://github.com/pt-plugins/PT-Plugin-Plus/releases?include_prereleases/latest)获取。如不会安装请参看Wiki
 
 **提Issue前请务必检查Dev版本、Pull Request以及之前的Issue**
+
+**M-Team 请于站点控制台 -> 实验室 获取 Token 填入后使用**
 
 ## 已支持的浏览器
 - <a href="https://chrome.google.com/webstore/detail/abkdiiddckphbigmakaojlnmakpllenb" title="已在 Chrome Web Store 市场上发布的版本">![Google Chrome](https://img.shields.io/chrome-web-store/v/abkdiiddckphbigmakaojlnmakpllenb.svg?label=Google%20Chrome)</a> （已下架，见[原因](https://github.com/pt-plugins/PT-Plugin-Plus/wiki#%E5%B7%B2%E8%A2%AB%E4%B8%8B%E6%9E%B6%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8)）
